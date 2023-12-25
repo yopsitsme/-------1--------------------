@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en" dir="rtl">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="css\general.css" rel="stylesheet">
+    <link href="css/order.css" rel="stylesheet">
+    <title>הזמנת חדר</title>
+    <link rel="shortcut icon" href="images\infi.png">
+</head>
+
+<body>
+    <header>
+        <iframe src="navigation.html" title="page navigation" frameborder="0"></iframe>
+    </header>
+    <main>
+        <img src="./images/gold labby.png" alt="gold lobby">
+        <h1>הזמנת חדר</h1>
+        <section>
+            <table>
+                <thead>
+                    <tr>
+                        <th> </th>
+                        <th>לילה אחד</th>
+                        <th>3 לילות ומעלה <br>(המחיר ללילה)</th>
+                        <th>סוף שבוע</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <th>חדר זוגי</th>
+                        <th>900 שקל</th>
+                        <th>800 שקל</th>
+                        <th>1200 שקל</th>
+                    </tr>
+                    <tr>
+                        <th>סוויטה</th>
+                        <th>1150 שקל</th>
+                        <th>1050 שקל</th>
+                        <th>1500 שקל</th>
+                    </tr>
+                    <tr>
+                        <th>חדר משפחתי</th>
+                        <th>1400 שקל</th>
+                        <th>1300 שקל</th>
+                        <th>2000 שקל</th>
+                    </tr>
+                </tbody>
+            </table>
+            <div>
+                <div class="table">
+                    <h6>חדר זוגי</h6>
+                    <p>
+                        900 ש"ח ללילה<br>
+                        800 ש"ח החל מ-3 ללילות<br>
+                        1200 ש"ח לסוף שבוע
+                    </p>
+                </div>
+                <div class="table">
+                    <h6>סוויטות</h6>
+                    <p>
+                        900 ש"ח ללילה<br>
+                        800 ש"ח החל מ-3 ללילות<br>
+                        1200 ש"ח לסוף שבוע
+                    </p>
+                </div>
+                <div class="table">
+                    <h6>חדר משפחתי</h6>
+                    <p>
+                        900 ש"ח ללילה<br>
+                        800 ש"ח החל מ-3 ללילות<br>
+                        1200 ש"ח לסוף שבוע
+                    </p>
+                </div>
+        </section>
+        <section>
+            <div>
+                <form action="payment_succeed.html">
+                    <div class="inputs">
+                        <label for="date1">מתאריך</label>
+                        <input type="date" id="date1" name="date1">
+                    </div>
+                    <div class="inputs">
+                        <label for="date2">עד תאריך</label>
+                        <input type="date" id="date2" name="date2">
+                    </div><br>
+                    <div class="inputs">
+                        <label for="roomsize">בחר חדר:</label>
+                        <select name="roomsize" id="roomsize">
+                            <option value=""> </option>
+                            <option value="">חדר זוגי</option>
+                            <option value="">סוויטה</option>
+                            <option value="">חדר משפחתי</option>
+                        </select>
+                    </div>
+                    <div class="inputs">
+                        <input type="radio" id="pension" name="food" value="no">
+                        <label id="pension_label" for="pension">פנסיון מלא</label>
+                        <input type="radio" id="half-pension" name="food" value="yes">
+                        <label for="half-pension">חצי-פנסיון</label>
+                    </div>
+                    <div id="credit_card">
+                        <h6>פרטי מזמין:</h6>
+                        <div class="inputs">
+                            <label for="fname">שם:</label>
+                            <input type="text" id="fname" name="firstname" placeholder="ישראל ישראלי" required>
+                        </div>
+                        <div class="inputs">
+                            <label for="email">דוא"ל:</label>
+                            <input type="text" id="email" name="email" placeholder="123456@example.com" required>
+                        </div>
+                        <div class="inputs">
+                            <label for="telphone">טלפון:</label>
+                            <input type="tel" id="telphone" name="telphone" placeholder="054-1234567" required>
+                        </div>
+                        <h6>פרטי תשלום:</h6>
+                        <div class="inputs">
+                            <label for="ccnum">מספר כרטיס:</label>
+                            <input type="text" id="ccnum" name="cardnumber" placeholder="1111-2222-3333-4444" required>
+                        </div>
+                        <div class="inputs">
+                            <label for="expmonth">תוקף:</label>
+                            <input type="text" id="expmonth" name="expmonth" placeholder="01/01" required>
+                        </div>
+                        <div class="inputs">
+                            <label for="cvv">cvv:</label>
+                            <input type="text" id="cvv" name="cvv" placeholder="123" required>
+                        </div>
+                        <div>
+                            <input type="submit" id="submit" value="לתשלום" class="btn">
+                        </div>
+                    </div>
+                </form>
+            </div>
+        </section>
+    </main>
+    <footer>
+        <iframe src="footer.html" title="page footer" frameborder="0"></iframe>
+    </footer>
+</body>
+
+</html>

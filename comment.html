@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en" dir="rtl">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="css\general.css" rel="stylesheet">
+    <link href="css/comments.css" rel="stylesheet">
+    <title>תגובות</title>
+    <link rel="shortcut icon" href="images\infi.png">
+</head>
+
+<body>
+    <header>
+        <iframe src="navigation.html" frameborder="0"></iframe>
+    </header>
+    <main>
+        <img src="./images/hotel labby.png" alt="">
+        <div id="inputs">
+            <h3>שתפו אותנו בחווית השהות שלכם:</h3>
+            <form action="thanks.html">
+                <div class="identity">
+                    <label for="name">שם:</label>
+                    <input type="text" id="name" name="name" required>
+                </div>
+                <div class="identity">
+                    <label for="email">דוא"ל:</label>
+                    <input type="email" id="email" name="email" required>
+                </div>
+                <div class="identity">
+                    <label for="date">הייתי בתאריך:</label>
+                    <input type="date" id="date" name="date" required>
+                </div>
+                <div id="howmuch">
+                    <p>דרג את השירות:</p>
+                    <label for="foody">אוכל:</label>
+                    <input type="range" id="foody" name="foody">
+                    <label for="serverooms">שירות חדרים:</label>
+                    <input type="range" id="serverooms" name="serverooms">
+                    <label for="cleanliness">ניקיון:</label>
+                    <input type="range" id="cleanliness" name="cleanliness">
+                </div>
+
+                <p>הכי נהניתי מ:</p>
+                <div id="enjoyed">
+                    <span>
+                        <input type="radio" id="pool" name="enjoyed">
+                        <label for="pool">בריכה</label>
+                    </span>
+                    <span>
+                        <input type="radio" id="spa" name="enjoyed">
+                        <label for="spa">ספא</label>
+                    </span>
+                    <span>
+                        <input type="radio" id="sport" name="enjoyed">
+                        <label for="sport">חדר כושר</label>
+                    </span>
+                    <span>
+                        <input type="radio" id="food" name="enjoyed">
+                        <label for="food">מסעדה</label>
+                    </span>
+                    <span>
+                        <input type="radio" id="rooms" name="enjoyed">
+                        <label for="rooms">שירות חדרים</label>
+                    </span>
+                    <span>
+                        <input type="radio" id="reception" name="enjoyed">
+                        <label for="reception">שירותי קבלה</label>
+                    </span>
+                </div>
+                <p>לא נהניתי מ:</p>
+                <div id="didntenjoy">
+                    <span>
+                        <input type="radio" id="pool" name="didn't_enjoy">
+                        <label for="pool">בריכה</label>
+                    </span>
+                    <span>
+                        <input type="radio" id="spa" name="didn't_enjoy">
+                        <label for="spa">ספא</label>
+                    </span>
+                    <span>
+                        <input type="radio" id="sport" name="didn't_enjoy">
+                        <label for="sport">חדר כושר</label>
+                    </span>
+                    <span>
+                        <input type="radio" id="food" name="didn't_enjoy">
+                        <label for="food">מסעדה</label>
+                    </span>
+                    <span>
+                        <input type="radio" id="rooms" name="didn't_enjoy">
+                        <label for="rooms">שירות חדרים</label>
+                    </span>
+                    <span>
+                        <input type="radio" id="reception" name="didn't_enjoy">
+                        <label for="reception">שירותי קבלה</label><br>
+                    </span>
+                </div>
+                <span>
+                    <input type="checkbox" id="recommend" name="recommend">
+                    <label for="recommend">אמליץ לחברים</label><br>
+                </span>
+                <label for="my_opinion" for="my_opinions">עוד משהו שרציתי לומר:</label><br>
+                <textarea id="my_opinion" name="my_opinion" rows="6" cols="126"></textarea>
+                <textarea id="my_opinions" name="my_opinion" rows="4" cols="40"></textarea><br>
+                <input type="submit" id="submit" value="שלח">
+            </form>
+        </div>
+    </main>
+    <footer>
+        <iframe src="footer.html" frameborder="0"></iframe>
+    </footer>
+</body>
+
+</html>

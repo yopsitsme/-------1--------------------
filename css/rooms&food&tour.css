@@ -1,0 +1,54 @@
+#picture_galery {
+    margin-top: 7vw;
+    padding-bottom: -30%;
+}
+
+article>section>div {
+    display: flex;
+    justify-content: center;
+}
+
+article>section>div>img {
+    width: 10vw;
+    margin: 0 1vw;
+    box-shadow: 0.1rem 0.1rem 0.7rem black;
+    border-radius: 10vw;
+}
+
+p,
+h6,
+h2 {
+    text-align: center;
+    color: rgb(19, 1, 8);
+}
+
+h6 {
+    font-size: 3.5rem;
+    margin: 2vw 0 1vw 0;
+}
+
+p {
+    font-size: 1.7rem;
+    margin-bottom: 8vw;
+}
+
+@media only screen and (max-width: 428px) {
+
+    html,
+    body {
+        font-size: 13px;
+    }
+
+    #picture_galery {
+        display: none;
+    }
+
+    p,
+    h6 {
+        padding: 0 12vw;
+    }
+
+    article>section>div>img {
+        width: 15vw;
+    }
+}

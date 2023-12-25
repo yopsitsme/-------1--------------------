@@ -1,0 +1,61 @@
+html {
+   scroll-padding-top: 2vw;
+}
+
+html body {
+   box-sizing: border-box;
+   font-size: 16px;
+   font-family: Verdana, Geneva, Tahoma, sans-serif;
+   margin: 0;
+}
+
+h1 {
+   font-size: 10rem;
+}
+
+h2 {
+   font-size: 5.5rem;
+}
+
+h5 {
+   font-size: 2rem;
+}
+
+h6 {
+   font-size: 1.5rem;
+}
+
+header {
+   width: 100%;
+   height: 2vw;
+   position: fixed;
+   top: -0.5vw;
+   z-index: 101;
+}
+
+iframe {
+   width: 100%;
+}
+
+#submit {
+   margin-top: 2vw;
+   padding: 0.6vw 30vw;
+   background-color: rgb(204, 176, 187);
+   border: none;
+   box-shadow: 0.1rem 0.1rem 0.7rem;
+}
+
+#submit:hover {
+   background-color: rgb(59, 20, 35);
+   color: white;
+}
+
+footer>iframe {
+   height: 9vh;
+}
+
+@media only screen and (max-width: 428px) {
+   header {
+      margin-top: -1.6vw;
+   }
+}

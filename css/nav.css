@@ -1,0 +1,36 @@
+ul{
+    display:flex;
+    list-style-type: none;
+    justify-content: space-around;
+    background-color: rgb(40, 3, 17);
+
+}
+
+a{
+    text-decoration: none;
+    color: white;
+}
+
+li{
+    justify-content: space-around;
+    font-size: 1.5vw;
+    padding: 1.6vw 2.1vw;
+}
+
+li:hover{
+    background-color: rgb(73, 49, 80);
+    opacity: 0.5;
+}
+ul:first-child{
+    padding-right: 2.5vw;
+}
+
+
+@media only screen and (max-width:400px){
+   li{
+    font-size: 0.8rem;
+   }
+   a{
+    margin:auto;
+   }
+}

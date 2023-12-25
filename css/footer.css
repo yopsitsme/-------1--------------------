@@ -1,0 +1,28 @@
+ul{
+    display:flex;
+    list-style-type: none;
+    justify-content:center;
+    padding: 0.1rem 0;
+    height: 7vh;
+}
+
+li{
+    padding:0 1.5rem;
+    font-size: 1.5rem;
+}
+
+#twitter{
+    color: rgb(66, 177, 242);
+}
+
+#facebook{
+    color:rgb(34, 34, 114)
+}
+
+#youtube{
+    color:red;
+}
+
+#instagram{
+    color:rgb(212, 39, 103);
+}

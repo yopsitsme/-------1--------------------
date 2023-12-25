@@ -1,0 +1,146 @@
+img {
+    width: 100vw;
+    position: fixed;
+    top: -5vh;
+    z-index: -1;
+}
+
+body {
+    font-weight: bolder;
+}
+
+#inputs {
+    background-color: rgba(255, 255, 255, 0.559);
+    margin: 8% 6% 0 6%;
+    padding: 5%;
+    text-align: center;
+}
+
+#enjoyed>label,
+#didntenjoy>label {
+    margin-left: 1%;
+}
+
+#recommend {
+    margin: 2% 0%;
+}
+
+#my_opinion {
+    margin: 1%;
+}
+
+p,
+h3 {
+    text-decoration: underline;
+}
+
+h3 {
+    font-size: 2rem;
+    margin-bottom: 3vw;
+}
+
+p {
+    font-size: 1.3rem;
+}
+
+input {
+    padding: 0.4vw 3.5vw;
+    font-size: 1rem;
+    text-align: center;
+}
+
+#my_opinions {
+    display: none;
+}
+
+#pool,
+#spa,
+#sport,
+#food,
+#rooms,
+#reception {
+    margin-right: 3vw;
+}
+
+#foody,
+#serverooms,
+#cleanliness {
+    padding: 0;
+}
+
+.identity {
+    display: inline-block;
+}
+
+@media only screen and (max-width: 428px) {
+    body {
+        background-image: url('../images/hotel\ labby.png');
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+
+    .identity {
+        display: block;
+        margin: 2vw 0;
+    }
+
+    #inputs {
+        margin: 0 1rem;
+    }
+
+    img {
+        display: none;
+    }
+
+    #my_opinion {
+        display: none;
+    }
+
+    #my_opinions {
+        display: initial;
+        margin-top: 2vw;
+    }
+
+    header {
+        margin-top: 0.9vw;
+    }
+
+    #howmuch {
+        display: grid;
+        grid-template-columns: 3;
+        grid-template-rows: 4;
+        grid-template-areas:
+            "a a a"
+            "c b b"
+            "e d d"
+            "g f f";
+    }
+
+    #howmuch>p {
+        grid-area: a;
+    }
+
+    #foody {
+        grid-area: b;
+    }
+
+    #serverooms {
+        grid-area: d;
+    }
+
+    #cleanliness {
+        grid-area: f;
+    }
+
+    #enjoyed,
+    #didntenjoy {
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    input {
+        padding: 0;
+    }
+
+}

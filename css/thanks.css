@@ -1,0 +1,37 @@
+html,
+body {
+    background-color: rgb(19, 1, 8);
+}
+
+h1,
+h2,
+h3,
+h6 {
+    text-align: center;
+
+}
+
+h3 {
+    font-size: 3rem;
+}
+
+h1 {
+    margin: 2vw 0;
+}
+
+h1,
+h2,
+h3 {
+    color: white;
+    text-shadow: 0.1rem 0.1rem 0.7rem rgb(251, 248, 248);
+}
+
+@media only screen and (max-width: 428px) {
+    h1 {
+        font-size: 5rem;
+    }
+
+    h2 {
+        font-size: 4.2rem;
+    }
+}

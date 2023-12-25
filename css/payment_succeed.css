@@ -1,0 +1,49 @@
+html,
+body {
+    background-color: rgb(119, 39, 70);
+}
+
+h2,
+h6,
+p {
+    text-align: center;
+}
+
+h2 {
+    margin: 2vw 0;
+    font-size: 2rem;
+}
+
+h2,
+p {
+    color: rgb(255, 255, 255);
+    text-shadow: 0.1rem 0.1rem 0.7rem rgb(251, 248, 248);
+}
+
+p {
+    font-size: 1.2rem;
+    font-weight: bold;
+}
+
+h6 {
+    margin-top: 1vw;
+}
+
+div {
+    display: flex;
+    justify-content: center;
+}
+
+video {
+    width: 50vw;
+}
+
+@media only screen and (max-width: 428px) {
+    h2 {
+        font-size: 3rem;
+    }
+
+    video {
+        width: 90vw;
+    }
+}
