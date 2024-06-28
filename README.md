@@ -38,12 +38,12 @@ To demonstrate the responsive design of this project, we've included screenshots
 ### Full Screen (Desktop)
 <!-- ![Full Screen](screenshot/fullscreen_screenshot.mp4) -->
 
-https://github.com/yopsitsme/fullscreen_screenshot.mp4
+https://github.com/yopsitsme/Hilbert-s_hotel/fullscreen_screenshot.mp4
 This screenshot shows how the website appears on a full-sized desktop screen.
 
 ### iPhone Pro Screen
 <!-- ![iPhone Pro Screen](screenshot/iphone_pro_screenshot.mp4) -->
-https://github.com/yopsitsme/iphone_pro_screenshot.mp4
+https://github.com/yopsitsme/Hilbert-s_hotel/iphone_pro_screenshot.mp4
 Here you can see how the design adapts to the smaller screen of an iPhone Pro, showcasing the mobile responsiveness of the site.
 
 
