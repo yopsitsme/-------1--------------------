@@ -36,11 +36,14 @@ This is the first of six projects in my full stack development journey. It focus
 To demonstrate the responsive design of this project, we've included screenshots at different screen sizes:
 
 ### Full Screen (Desktop)
-![Full Screen](screenshot/fullscreen_screenshot.mp4)
+<!-- ![Full Screen](screenshot/fullscreen_screenshot.mp4) -->
+
+https://github.com/yopsitsme/fullscreen_screenshot.mp4
 This screenshot shows how the website appears on a full-sized desktop screen.
 
 ### iPhone Pro Screen
-![iPhone Pro Screen](screenshot/iphone_pro_screenshot.mp4)
+<!-- ![iPhone Pro Screen](screenshot/iphone_pro_screenshot.mp4) -->
+https://github.com/yopsitsme/iphone_pro_screenshot.mp4
 Here you can see how the design adapts to the smaller screen of an iPhone Pro, showcasing the mobile responsiveness of the site.
 
 
@@ -64,9 +67,3 @@ That's it! The project should now be running in your browser.
 ## Acknowledgments
 This project was completed as part of the full stack development course curriculum.
 
-## Setup and Installation
-1. Clone the repository
-2. Open the project folder in Visual Studio Code
-3. Use a live server extension to view the project in your browser
-
-## File Structure
